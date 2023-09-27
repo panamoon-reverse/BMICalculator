@@ -71,5 +71,10 @@ namespace BMICalculator
             BMI_text.Text = "";
             BMI_num.Text = "";
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
