@@ -39,6 +39,7 @@
             this.w_textBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.Clear_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -97,7 +98,7 @@
             // 
             // Cal_Button
             // 
-            this.Cal_Button.Location = new System.Drawing.Point(370, 260);
+            this.Cal_Button.Location = new System.Drawing.Point(320, 260);
             this.Cal_Button.Name = "Cal_Button";
             this.Cal_Button.Size = new System.Drawing.Size(105, 23);
             this.Cal_Button.TabIndex = 6;
@@ -137,11 +138,22 @@
             this.label8.TabIndex = 10;
             this.label8.Text = "kg.";
             // 
+            // Clear_button
+            // 
+            this.Clear_button.Location = new System.Drawing.Point(440, 260);
+            this.Clear_button.Name = "Clear_button";
+            this.Clear_button.Size = new System.Drawing.Size(75, 23);
+            this.Clear_button.TabIndex = 11;
+            this.Clear_button.Text = "Clear";
+            this.Clear_button.UseVisualStyleBackColor = true;
+            this.Clear_button.Click += new System.EventHandler(this.Clear_button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Clear_button);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.w_textBox);
@@ -173,6 +185,7 @@
         private System.Windows.Forms.TextBox w_textBox;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button Clear_button;
     }
 }
 

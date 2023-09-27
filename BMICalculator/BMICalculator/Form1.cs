@@ -63,5 +63,13 @@ namespace BMICalculator
             }
 
         }
+
+        private void Clear_button_Click(object sender, EventArgs e)
+        {
+            w_textBox.Clear();
+            h_textBox.Clear();
+            BMI_text.Text = "";
+            BMI_num.Text = "";
+        }
     }
 }
