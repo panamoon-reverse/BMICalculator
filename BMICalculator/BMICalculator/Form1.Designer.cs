@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.BMI_num = new System.Windows.Forms.Label();
+            this.BMI_text = new System.Windows.Forms.Label();
+            this.Cal_Button = new System.Windows.Forms.Button();
+            this.h_textBox = new System.Windows.Forms.TextBox();
+            this.w_textBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -71,52 +71,52 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(320, 210);
+            this.label4.Location = new System.Drawing.Point(320, 220);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "Result :";
             // 
-            // label5
+            // BMI_num
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(390, 210);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.BMI_num.AutoSize = true;
+            this.BMI_num.Location = new System.Drawing.Point(390, 220);
+            this.BMI_num.Name = "BMI_num";
+            this.BMI_num.Size = new System.Drawing.Size(44, 16);
+            this.BMI_num.TabIndex = 4;
+            this.BMI_num.Text = "label5";
             // 
-            // label6
+            // BMI_text
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(450, 210);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 16);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.BMI_text.AutoSize = true;
+            this.BMI_text.Location = new System.Drawing.Point(450, 220);
+            this.BMI_text.Name = "BMI_text";
+            this.BMI_text.Size = new System.Drawing.Size(44, 16);
+            this.BMI_text.TabIndex = 5;
+            this.BMI_text.Text = "label6";
             // 
-            // button1
+            // Cal_Button
             // 
-            this.button1.Location = new System.Drawing.Point(370, 260);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Cal_Button.Location = new System.Drawing.Point(370, 260);
+            this.Cal_Button.Name = "Cal_Button";
+            this.Cal_Button.Size = new System.Drawing.Size(105, 23);
+            this.Cal_Button.TabIndex = 6;
+            this.Cal_Button.Text = "Calculate";
+            this.Cal_Button.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // h_textBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(390, 130);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 7;
+            this.h_textBox.Location = new System.Drawing.Point(390, 130);
+            this.h_textBox.Name = "h_textBox";
+            this.h_textBox.Size = new System.Drawing.Size(100, 22);
+            this.h_textBox.TabIndex = 7;
             // 
-            // textBox2
+            // w_textBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(390, 170);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 8;
+            this.w_textBox.Location = new System.Drawing.Point(390, 170);
+            this.w_textBox.Name = "w_textBox";
+            this.w_textBox.Size = new System.Drawing.Size(100, 22);
+            this.w_textBox.TabIndex = 8;
             // 
             // label7
             // 
@@ -143,11 +143,11 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.w_textBox);
+            this.Controls.Add(this.h_textBox);
+            this.Controls.Add(this.Cal_Button);
+            this.Controls.Add(this.BMI_text);
+            this.Controls.Add(this.BMI_num);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -165,11 +165,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label BMI_num;
+        private System.Windows.Forms.Label BMI_text;
+        private System.Windows.Forms.Button Cal_Button;
+        private System.Windows.Forms.TextBox h_textBox;
+        private System.Windows.Forms.TextBox w_textBox;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
     }
