@@ -15,12 +15,15 @@ namespace BMICalculator
         public Form1()
         {
             InitializeComponent();
+            BMI_num.Text = "";
+            BMI_text.Text = "";
         }
 
         private void Cal_Button_Click(object sender, EventArgs e)
         {
             double weight = double.Parse(w_textBox.Text);
             double height = double.Parse(h_textBox.Text);
+
             double BMI = Math.Round(weight / Math.Pow((height/100.0),2),2);
 
             string bmi_text = "";
@@ -47,11 +50,18 @@ namespace BMICalculator
             }
             else
             {
-                MessageBox.Show("Something wrong, Please try again!");
+                MessageBox.Show("Something wrong, Please try again...");
+                BMI = -1;
+                w_textBox.Clear();
+                h_textBox.Clear();
             }
 
-            BMI_num.Text = BMI.ToString();
-            BMI_text.Text = bmi_text;
+            if (BMI != -1)
+            {
+                BMI_num.Text = BMI.ToString();
+                BMI_text.Text = "(" + bmi_text + ")";
+            }
+
         }
     }
 }
