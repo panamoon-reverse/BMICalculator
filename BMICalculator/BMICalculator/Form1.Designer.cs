@@ -103,6 +103,7 @@
             this.Cal_Button.TabIndex = 6;
             this.Cal_Button.Text = "Calculate";
             this.Cal_Button.UseVisualStyleBackColor = true;
+            this.Cal_Button.Click += new System.EventHandler(this.Cal_Button_Click);
             // 
             // h_textBox
             // 

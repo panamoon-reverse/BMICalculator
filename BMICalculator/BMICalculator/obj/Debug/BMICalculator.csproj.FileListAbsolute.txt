@@ -1,0 +1,11 @@
+D:\BMICalculator\BMICalculator\BMICalculator\bin\Debug\BMICalculator.exe.config
+D:\BMICalculator\BMICalculator\BMICalculator\bin\Debug\BMICalculator.exe
+D:\BMICalculator\BMICalculator\BMICalculator\bin\Debug\BMICalculator.pdb
+D:\BMICalculator\BMICalculator\BMICalculator\obj\Debug\BMICalculator.csproj.AssemblyReference.cache
+D:\BMICalculator\BMICalculator\BMICalculator\obj\Debug\BMICalculator.csproj.SuggestedBindingRedirects.cache
+D:\BMICalculator\BMICalculator\BMICalculator\obj\Debug\BMICalculator.Form1.resources
+D:\BMICalculator\BMICalculator\BMICalculator\obj\Debug\BMICalculator.Properties.Resources.resources
+D:\BMICalculator\BMICalculator\BMICalculator\obj\Debug\BMICalculator.csproj.GenerateResource.cache
+D:\BMICalculator\BMICalculator\BMICalculator\obj\Debug\BMICalculator.csproj.CoreCompileInputs.cache
+D:\BMICalculator\BMICalculator\BMICalculator\obj\Debug\BMICalculator.exe
+D:\BMICalculator\BMICalculator\BMICalculator\obj\Debug\BMICalculator.pdb

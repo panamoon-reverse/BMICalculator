@@ -16,5 +16,14 @@ namespace BMICalculator
         {
             InitializeComponent();
         }
+
+        private void Cal_Button_Click(object sender, EventArgs e)
+        {
+            double weight = double.Parse(w_textBox.Text);
+            double height = double.Parse(h_textBox.Text);
+            double BMI = Math.Round(weight / Math.Pow((height/100.0),2),2);
+
+            BMI_num.Text = BMI.ToString();
+        }
     }
 }
